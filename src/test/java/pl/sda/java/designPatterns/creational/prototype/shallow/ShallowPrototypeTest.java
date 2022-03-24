@@ -1,9 +1,11 @@
-package pl.sda.java.designPatterns.creational.prototype;
+package pl.sda.java.designPatterns.creational.prototype.shallow;
 
 import org.junit.jupiter.api.Test;
+import pl.sda.java.designPatterns.creational.prototype.Point;
+import pl.sda.java.designPatterns.creational.prototype.deep.Circle;
+import pl.sda.java.designPatterns.creational.prototype.shallow.RectangleCloneable;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 class ShallowPrototypeTest {
 

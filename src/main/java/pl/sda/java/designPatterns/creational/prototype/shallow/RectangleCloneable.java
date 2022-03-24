@@ -1,8 +1,10 @@
-package pl.sda.java.designPatterns.creational.prototype;
+package pl.sda.java.designPatterns.creational.prototype.shallow;
+
+import pl.sda.java.designPatterns.creational.prototype.Point;
 
 /**
- * wzorzec prototype type shallow: pola obiektu, które są refernecjami do innych obiektów,
- * nie będą w klonie osobnymi obiektami
+ * wzorzec prototype type shallow: pola obiektu, które są referencjami do innych obiektów,
+ * nie będą w klonie osobnymi obiektami (zmiany w orginale bedą widoczne w kopii)
  */
 
 public class RectangleCloneable implements Cloneable{
