@@ -13,6 +13,5 @@ class SingletonTest {
         Singleton second = Singleton.getInstance();
 
         assertTrue(first == second);
-
     }
 }

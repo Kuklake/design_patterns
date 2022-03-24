@@ -2,7 +2,7 @@ package pl.sda.java.designPatterns.creational.factoryMethod;
 
 public class DomesticPlan extends AbstractPlan {
     @Override
-    void getRate() {
-        rate = 3.7;
+    double getRate() {
+        return  3.7d;
     }
 }

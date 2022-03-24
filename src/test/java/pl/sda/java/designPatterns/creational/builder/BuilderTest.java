@@ -43,5 +43,4 @@ class BuilderTest {
         assertEquals(address, user.getAddress());
         assertEquals(phone, user.getPhone());
     }
-
 }

@@ -3,9 +3,11 @@ package pl.sda.java.designPatterns.creational.factoryMethod;
 public abstract class AbstractPlan {
     protected double rate;
 
-    abstract void getRate();
+    abstract double getRate();
 
-    public void calculateBill(int unit) {
-        System.out.println(unit * rate);
+    public String calculateBill(int unit) {
+        double x = (double)unit * getRate();
+        System.out.println(x);
+        return "" + x;
     }
 }
